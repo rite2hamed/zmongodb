@@ -1,0 +1,6 @@
+.{ .name = "zmongodb", .version = "0.1.0", .minimum_zig_version = "0.11.0", .dependencies = .{
+    .zbson = .{
+        .url = "https://github.com/rite2hamed/zig-bson/archive/refs/tags/v0.1.0.tar.gz",
+        .hash = "12208fcec2c14a4f0d649cb4beacdd42ec8fb3542d4079a37a17cc0c1916a8979e73",
+    },
+}, .paths = .{ "src", "build.zig" } }
