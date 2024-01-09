@@ -27,10 +27,6 @@ pub const Message = union(OpCode) {
     _: undefined,
 };
 
-pub const Section = union(enum) {
-    x: bool,
-};
-
 test "test oid" {
     const oid = ObjectId.new();
     std.debug.print("{any}\n", .{oid});
