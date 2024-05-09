@@ -35,6 +35,6 @@ test "test oid" {
 
 pub fn main() !void {
     std.debug.print("hello world!\n", .{});
-    const oid = ObjectId.new();
-    std.debug.print("{any}\n", .{oid});
+    // const oid = ObjectId.new();
+    // std.debug.print("{any}\n", .{oid});
 }
